@@ -26,7 +26,7 @@ class ProductosController extends Controller
         $modelos = Modelo::get();
         $marcas = Marca::get();
         $dimensiones = Dimensiones::get();
-        $pesos = Peso::get();-
+        $pesos = Peso::get();
         return view('nuevoproducto', ['productos' => $productos, 'colores' => $colores, 'tipos' => $tipos, 'modelos' => $modelos, 'marcas' => $marcas, 'dimensiones' => $dimensiones, 'pesos' => $pesos]);
     }
     public function show($producto)
