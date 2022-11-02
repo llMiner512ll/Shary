@@ -25,3 +25,7 @@ Route::get('/detallesproducto', [ProductosController::class,'index'])->name('det
 Route::get('/detallesproducto/{}', [ProductosController::class,'show']);
 
 Route::get('/nuevoproducto', [ProductosController::class,'nuevo'])->name('nuevo');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

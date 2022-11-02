@@ -19,7 +19,8 @@
                     <a class="nav-link" aria-current="page" href="{{route('productos')}}">Artículos</a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="{{route('nuevo')}}">Agregar articulo</a></li>
-                <li class="nav-item"><a class="nav-link" href="#!">Log Out</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('logout') }}">Log Out</a></li>
+
             </ul>
         </div>
     </div>

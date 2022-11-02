@@ -1,0 +1,18 @@
+insert into color (nombre) values ('Blanco');
+insert into color (nombre) values ('Negro');
+insert into color (nombre) values ('Rojo');
+insert into color (nombre) values ('Azul');
+insert into marca (nombre) values ('HP');
+insert into marca (nombre) values ('Dell');
+insert into marca (nombre) values ('Lenovo');
+insert into marca (nombre) values ('Apple');
+insert into tipo (nombre) values ('Laptop');
+insert into tipo (nombre) values ('Tablet');
+insert into tipo (nombre) values ('Desktop');
+insert into tipo (nombre) values ('Monitor');
+insert into modelo (nombre) values ('PRODESK 600 G4');
+insert into modelo (nombre) values ('PROBOOK 450 G3');
+insert into peso (nombre) values ('4kg');
+insert into peso (nombre) values ('1kg');
+insert into dimensiones (nombre) values ('10cm x 10cm x 10cm');
+insert into dimensiones (nombre) values ('360 x 224,3 x 3,8 mm');
